@@ -1,0 +1,106 @@
+.sidebar {
+    flex: 0.2;
+    font-size: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 80px;
+}
+
+.sidebar ul li:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar__top {
+    border: 0.1px solid lightgray;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sidebar__profile {
+    border-bottom: 0.1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5616AQFpu7l5gRWKMA/profile-displaybackgroundimage-shrink_350_1400/0/1648607961885?e=1671062400&v=beta&t=7LBcl7GO1QvMeYtT8powza1gv8c7cU1Ep7XT0E_QCqA");
+    /* background-image: linear-gradient(to bottom, black, red 20%); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 16px;
+}
+
+.sidebar__profile__pic {
+    margin-bottom: 15px;
+}
+
+.sidebar__profile>h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebar__profile>p {
+    font-size: 12px;
+}
+
+.sidebar__stats {
+    padding: 10px
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+.sidebar__stats>ul>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sidebar__stats__title {
+    font-weight: 700;
+    color: gray;
+}
+
+.sidebar__bottom h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.sidebar__stats__value {
+    color: #0a66c2;
+    font-weight: 700;
+}
+
+.sidebar__bottom ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar__bottom_icons {
+    margin-right: 10px;
+}
+
+.sidebar__bottom {
+    padding: 16px;
+    border: 0.1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(69, 69, 69);
+    margin-top: 10px;
+}
+
+.sidebar__bottom>.sidebar__bottom_hashtags {
+    margin-top: 30px;
+}

@@ -1,0 +1,60 @@
+.feed {
+    flex: 0.6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.feed__post {
+    padding: 20px;
+    border: 0.1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.feed__avatar__post {
+    display: flex;
+}
+
+.feed__menu {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.feed__menu__options {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.feed__menu__options:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.feed__menu__icons {
+    margin-right: 10px;
+}
+
+.feed__posting {
+    flex: 1;
+}
+
+.feed__posting>form {
+    margin-left: 15px;
+}
+
+.feed__posting>form>button {
+    display: none;
+}
+
+.feed__posting input {
+    width: 95%;
+    border-radius: 20px;
+    outline-width: 0;
+    height: 40px;
+    border: 1px solid darkgray;
+    padding-left: 15px;
+    color: gray;
+}
